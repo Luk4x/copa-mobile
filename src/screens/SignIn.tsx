@@ -6,9 +6,7 @@ import Button from '../components/Button';
 import Logo from '../assets/logo.svg';
 
 export default function SignIn() {
-    const { signIn, user } = useAuth();
-
-    console.log('dados do usuário:', user);
+    const { signIn, isUserLoading } = useAuth();
 
     return (
         <Center flex={1} bgColor="gray.900" p={7}>
@@ -20,6 +18,8 @@ export default function SignIn() {
                 mt={12}
                 mb={4}
                 onPress={signIn}
+                isLoading={isUserLoading}
+                _loading={{ _spinner: { color: 'white' } }}
             />
             <Text color="white" fontSize={18} textAlign="center">
                 Não utilizamos nenhuma informação além do seu {'\n'} e-mail para a criação da sua
