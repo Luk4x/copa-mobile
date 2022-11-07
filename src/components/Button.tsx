@@ -12,8 +12,8 @@ export default function Button({ title, type = 'PRIMARY', ...rest }: ButtonProps
             h={14}
             rounded="sm"
             fontSize="md"
-            bg={type === 'SECONDARY' ? 'red.500' : 'yellow.500'}
-            _pressed={{ bg: type === 'SECONDARY' ? 'red.600' : 'yellow.600' }}
+            bg={type === 'SECONDARY' ? 'violet.500' : 'yellow.500'}
+            _pressed={{ bg: type === 'SECONDARY' ? 'violet.600' : 'yellow.600' }}
             _loading={{ _spinner: { color: 'black' } }}
             {...rest}
         >
