@@ -35,17 +35,25 @@
 
 ## 🚀 Tecnologias utilizadas
 
--   [ReactJS](https://pt-br.reactjs.org)
--   [React Router](https://reactrouter.com/docs/en/v6/getting-started/overview)
--   [Styled-Components](https://styled-components.com)
--   [Bootstrap](https://getbootstrap.com/) / [React-Bootstrap](https://react-bootstrap.github.io/)
--   [BoxIcons](https://boxicons.com/)
+-   [Typescript](https://www.typescriptlang.org/)
+-   [React Native](https://reactnative.dev/)
+-   [NativeBase](https://nativebase.io/)
+-   [Phosphor React Native](https://www.npmjs.com/package/phosphor-react-native)
+-   [React Navigation](https://reactnavigation.org/)
+-   [Dotenv](https://www.npmjs.com/package/dotenv)
+-   [Country List](https://github.com/fannarsh/country-list)
 -   [Axios](https://axios-http.com/docs/intro)
--   [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
--   [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
--   [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
--   [ViteJS](https://vitejs.dev/)
--   [Yarn](https://yarnpkg.com/)
+-   [Dayjs](https://day.js.org/)
+-   [Expo](https://expo.dev/)
+-   [Expo Auth Session](https://docs.expo.dev/versions/latest/sdk/auth-session/)
+-   [Expo Status Bar](https://docs.expo.dev/versions/latest/sdk/status-bar/)
+-   [Expo Font](https://docs.expo.dev/versions/latest/sdk/font/)
+-   [React Native Safe Area Context](https://docs.expo.dev/versions/latest/sdk/safe-area-context/)
+-   [React Native Screens](https://docs.expo.dev/versions/latest/sdk/screens/)
+-   [React Native Svg](https://docs.expo.dev/versions/latest/sdk/svg/)
+-   [React Native Svg Transformer](https://github.com/kristerkari/react-native-svg-transformer)
+-   [React Native Country Flag](https://www.npmjs.com/package/react-native-country-flag)
+-   [npm](https://www.npmjs.com/)
 
 ## 📝 Sobre
 
