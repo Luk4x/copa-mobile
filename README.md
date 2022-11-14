@@ -19,7 +19,7 @@
   <a href="#-apresentação-em-vídeo-do-projeto">Vídeo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-páginas">Páginas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-telas">Telas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-demais-componentes">Componentes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-clonando-o-projeto">Clone</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-contato-dos-contribuintes">Contato</a>
@@ -57,15 +57,16 @@
 
 ## 📝 Sobre
 
-> Assistir o vídeo acima e/ou acessar o projeto online ajudará na compreensão da explicação!
+> Assistir o vídeo acima ajudará na compreensão da explicação!
 
-Esse projeto é a Interface Mobile-First do **CodeBurger**, uma aplicação Web que realiza o cadastro e a gerência de pedidos de uma hamburgueria. Os pedidos ficam armazenados em sua [API](https://github.com/Luk4x/dev-burger-order-log-API) que desenvolvi essencialmente com ExpressJS.
+Esse projeto é a Interface Mobile da **Copa**, uma aplicação temática da copa do mundo que realiza o cadastro e a gerência de bolões, jogos e usuários, desenvolvida durante a trilha Ignite da NLW Copa da [Rocketseat](https://www.rocketseat.com.br/).<br>
+Os dados são fornecidos pela sua [API](https://github.com/Luk4x/copa-server) desenvolvida essencialmente com Fastify.<br>
 
-### 📄 Páginas
+### 📄 Telas
 
-O projeto é composto por 2 componentes de páginas, sendo eles:
+O projeto é composto por 5 componentes de tela, sendo eles:
 
-  - **Home**: Além de ser a página inicial do CodeBurger, ela responsável por realizar o cadastro dos pedidos validados pelas verificações na API.
+  - **SignIn**: Além de ser a página inicial, nela o usuário deve se cadastrar no App, e utilizo o sistema de autenticação do Google para tal.
   - **Orders**: Essa página é responsável por listar os pedidos já cadastrados na API, e também informa seus respectivos status (com um tempo de preparação aleatório entre `5` à `40` segundos) e preço (gerado a partir da quantidade de caracteres do pedido + um valor aleatório entre `1` à `50`).
 
 ### 📑 Demais Componentes
