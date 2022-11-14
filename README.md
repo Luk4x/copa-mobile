@@ -66,8 +66,11 @@ Os dados são fornecidos pela sua [API](https://github.com/Luk4x/copa-server) de
 
 O projeto é composto por 5 componentes de tela, sendo eles:
 
-  - **SignIn**: Além de ser a página inicial, nela o usuário deve se cadastrar no App, e utilizo o sistema de autenticação do Google para tal.
-  - **Orders**: Essa página é responsável por listar os pedidos já cadastrados na API, e também informa seus respectivos status (com um tempo de preparação aleatório entre `5` à `40` segundos) e preço (gerado a partir da quantidade de caracteres do pedido + um valor aleatório entre `1` à `50`).
+  - **SignIn**: Além de ser a tela inicial, nela o usuário deve se cadastrar no App, e utilizo o sistema de autenticação do Google para tal.
+  - **Pools**: Essa tela é responsável por listar todos os bolões que o usuário criou e/ou participa.
+  - **New**: Essa tela é responsável pela criação de um bolão.
+  - **Find**: Essa tela é responsável pela busca de um bolão por seu código. Caso o bolão seja encontrado, você se tornará participante dele automaticamente.
+  - **Details**: Essa tela é responsável por mostrar os detalhes de um bolão: Quem o criou, quantos participam dele e quais jogos ele tem. Você também pode dar palpites nesses jogos e acessar seu Ranking.
 
 ### 📑 Demais Componentes
 
