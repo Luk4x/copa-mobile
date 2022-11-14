@@ -74,34 +74,47 @@ The project consists of 5 screen components, which are:
 
 ### 📑 Other Components
 
-Apart from the **Routes**, **GlobalStyles** and **main** components, the project has 5 more components that are reused on both pages, which are:
+The project has 16 more components that are reused by the application, which are:
 
-- **Socials**: This component is relative to the button that lists my social networks.
-- **MainContainer**: This component is related to the container that houses the order information.
-- **Image**: This component is relative to the CodeBurger _Logo_ and _Packaging_ images.
-- **Button**: This component is relative to the _Pedir_ and _Voltar_ buttons.
-- **Title**: This component is related to the titles of the **MainContainer**.
+- **Button**: This component is related to the highlight button that is repeated in the application screens. It has `PRIMARY` and `SECONDARY` mode.
+- **ButtonIcon**: This component is relative to any button that is just an icon that is repeated in the **Header** of the application.
+- **EmptyMyPoolList**, **EmptyPoolList**, **EmptyRankingList**: These components are relative to their respective lists, shown when they are empty.
+- **Flag**, **Team**: These components are related to the country flag icons in the **Details** screen.
+- **Game**: This component is related to the games in the **Details** screen.
+- **Guesses**: This component returns the list of games(**Games**) on the **Details** screen.
+- **Header**: This component is relative to the header that is repeated in the application screens.
+- **Input**: This component is related to the Inputs that are repeated in the application screens.
+- **Loading**: This component is related to the loading effect, used to wait for requests.
+- **Option**: This component is relative to the list options in the **Details** screen.
+- **Participants**: This component is responsible for displaying the participants of a pool, used in the **PoolHeader**.
+- **PoolHeader**: This component is responsible for displaying the pool data on the **Details** screen.
+- **PoolCard**: This component is responsible for displaying the pool data summarized and on a card, as used in the **Pools** screen.
+
+I highlight 3 more components that play a fundamental role in the application:
+
+- **AuthContext** and **useAuth**: They are, respectively, the context that stores user information, and the hook created to use it in a simplified way. They are responsible for making user information accessible by the application.
+- **api**: Created with the help of axios, this component stores the base URL of the API that provides the data for the project.
 
 ## 📖 Cloning the Project
 
-To clone and run this project on your computer you will need [Git](https://git-scm.com/), [Node.js v16.13.2](https://nodejs.org/en/) or higher and [Yarn](https://yarnpkg.com/) previously installed.<br>
-You'll also need the project's API running, so before continuing here, go to [API Repository](https://github.com/Luk4x/dev-burger-order-log-API) and go through the steps on how to clone and run it first!<br>
+To clone and run this project on your computer you will need [Git](https://git-scm.com/) and [Node.js v18.12.0](https://nodejs.org/en/) or higher previously installed.<br>
+You'll also need the project's API running, so before continuing here, go to [API Repository](https://github.com/Luk4x/copa-server) and go through the steps on how to clone and run it first!<br>
 After these two steps, in the terminal:
 
 ```bash
 # Clone this repository with:
-> git clone https://github.com/Luk4x/dev-burger-order-log-interface.git
+> git clone https://github.com/Luk4x/copa-mobile
 
 # Enter the repository with:
-> cd dev-burger-order-log-interface
+> cd copa-mobile
 
 # Install dependencies with:
-> yarn install
+> npm install
 
 # Run the project with:
-> yarn dev
+> npx expo start
 
-# Once this is done, you will be able to access the project through the link that will appear in the terminal! (something like http://localhost:3000/ or http://127.0.0.1:5173/)
+# Once this is done, you can now access the project on your mobile phone with a QR Code that will appear on the terminal! (or by a link like: exp://192.168.0.112:19000)
 ```
 
 ## 🤝 Contributor Contact
@@ -120,5 +133,5 @@ After these two steps, in the terminal:
 </table>
 
 <p align="right">
-  <a href="#-codeburger-project-interface">Back to Top</a>
+  <a href="#-copa-project-mobile-interface">Back to Top</a>
 </p>
