@@ -74,18 +74,31 @@ O projeto é composto por 5 componentes de tela, sendo eles:
 
 ### 📑 Demais Componentes
 
-Fora os componentes de Rotas (**Routes**), estilos globais (**GlobalStyles**) e Root (**main**), o projeto conta com mais 5 componentes que são reaproveitados em ambas as páginas, sendo eles:
+O projeto conta com mais 16 componentes que são reaproveitados pela aplicação, sendo eles:
 
-- **Socials**: Esse componente é relativo ao botão que lista minhas redes sociais.
-- **MainContainer**: Esse componente é relativo ao container que abriga as informações dos pedidos.
-- **Image**: Esse componente é relativo às imagens de _Logo_ e _Embalagem_ do CodeBurger.
-- **Button**: Esse componente é relativo aos botões de _Pedir_ e _Voltar_.
-- **Title**: Esse componente é relativo aos títulos do **MainContainer**.
+- **Button**: Esse componente é relativo ao botão de destaque que se repete nas telas da aplicação. Ele tem o modo `PRIMARY` e `SECONDARY`.
+- **ButtonIcon**: Esse componente é relativo a qualquer botão que seja apenas um ícone que se repete no **Header** da aplicação.
+- **EmptyMyPoolList**, **EmptyPoolList**, **EmptyRankingList**: Esses componentes são relativos às suas respectivas listas, mostrados quando elas estão vazias.
+- **Flag**, **Team**: Esses componentes são relativos aos ícones das bandeiras dos países na tela de **Details**.
+- **Game**: Esse componente é relativo aos jogos na tela de **Details**.
+- **Guesses**: Esse componente retorna a lista de jogos(**Games**) na tela de **Details**.
+- **Header**: Esse componente é relativo ao cabeçalho que se repete nas telas da aplicação.
+- **Input**: Esse componente é relativo aos Inputs que se repetem nas telas da aplicação.
+- **Loading**: Esse componente é relativo ao efeito de carregamento, usado para aguardar requisições.
+- **Option**: Esse componente é relativo às opções de lista na tela de **Details**.
+- **Participants**: Esse componente é responsável por exibir os participantes de um bolão, utilizado no **PoolHeader**.
+- **PoolHeader**: Esse componente é responsável por exibir os dados do bolão na tela de **Details**.
+- **PoolCard**: Esse componente é responsável por exibir os dados do bolão resumidos e em um card, como utilizados na tela de **Pools**.
+
+Destaco mais 3 componentes que desempenham um papel fundamental na aplicação:
+
+- **AuthContext** e **useAuth**: São respectivamente, o contexto que guarda informações do usuário, e o hook criado para utilizá-lo de forma simplificada. Eles são responsáveis por deixar as informações do usuário acessíveis pela aplicação.
+- **api**: Criado com o auxílio do axios, esse componente guarda a URL base da API que fornece os dados para o projeto.
 
 ## 📖 Clonando o Projeto
 
-Para clonar e executar este projeto em seu computador, você precisará do [Git](https://git-scm.com/), [Node.js v16.13.2](https://nodejs.org/en/) ou superior e [Yarn](https://yarnpkg.com/) previamente instalados.<br>
-Você também precisará da API do projeto rodando, portanto, antes de continuar por aqui, vá ao [Repositório da API](https://github.com/Luk4x/dev-burger-order-log-API) e faça os passos sobre como cloná-la e executá-la primeiro!<br>
+Para clonar e executar este projeto em seu computador, você precisará do [Git](https://git-scm.com/) e [Node.js v18.12.0](https://nodejs.org/en/) ou superior previamente instalados.<br>
+Você também precisará da API do projeto rodando, portanto, antes de continuar por aqui, vá ao [Repositório da API](https://github.com/Luk4x/copa-server) e faça os passos sobre como cloná-la e executá-la primeiro!<br>
 Feito esses dois passos, no terminal:
 
 
