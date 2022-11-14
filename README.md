@@ -101,21 +101,20 @@ Para clonar e executar este projeto em seu computador, você precisará do [Git]
 Você também precisará da API do projeto rodando, portanto, antes de continuar por aqui, vá ao [Repositório da API](https://github.com/Luk4x/copa-server) e faça os passos sobre como cloná-la e executá-la primeiro!<br>
 Feito esses dois passos, no terminal:
 
-
 ```bash
 # Clone esse repositório com:
-> git clone https://github.com/Luk4x/dev-burger-order-log-interface.git
+> git clone https://github.com/Luk4x/copa-mobile
 
 # Entre no repositório com:
-> cd dev-burger-order-log-interface
+> cd copa-mobile
 
 # Instale as dependências com:
-> yarn install
+> npm install
 
 # Execute o projeto com:
-> yarn dev
+> npx expo start
 
-# Feito isso, você já poderá acessar o projeto pelo link que aparecerá no terminal! (algo como http://localhost:3000/ ou http://127.0.0.1:5173/)
+# Feito isso, você já poderá acessar o projeto pelo seu celular com QR Code que aparecerá no terminal! (ou por um link como: exp://192.168.0.112:19000)
 ```
 
 ## 🤝 Contato dos Contribuintes
@@ -134,5 +133,5 @@ Feito esses dois passos, no terminal:
 </table>
 
 <p align="right">
-  <a href="#-codeburger-project-interface">Voltar ao Topo</a>
+  <a href="#-copa-project-mobile-interface">Voltar ao Topo</a>
 </p>
