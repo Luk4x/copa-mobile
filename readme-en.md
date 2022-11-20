@@ -120,17 +120,38 @@ After these two steps, in the terminal:
 
 ## 🤝 Contributor Contact
 
-<table>
+<table border="2">
   <tr>
     <td align="center">
-      <a href="https://www.linkedin.com/in/lucasmacielf/">
-        <img src="https://avatars.githubusercontent.com/Luk4x" width="150px;" alt="Luk4x Github Photo"/><br>
-        <sub>
-          <b>Lucas Maciel</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
+      <details>
+        <summary>
+          <b><a href="https://cursos.alura.com.br/vitrinedev/lucasmacielf">Vitrine.Dev</a> 🪟</b>
+          <table>
+            <tr>
+              <td align="center">
+                <a href="https://github.com/Luk4x">
+                  <img src="https://avatars.githubusercontent.com/Luk4x" width="150px;" alt="Luk4x Github Photo"/>
+                </a>
+                <br>
+                <a href="https://www.linkedin.com/in/lucasmacielf/">
+                  <sub>
+                    <b>Lucas Maciel</b>
+                  </sub>
+                </a>
+              </td>
+            </tr>
+          </table>
+        </summary>
+
+| :placard: Vitrine.Dev | Lucas Maciel |
+| -------------  | --- |
+| :sparkles: Name        | **⚽ Copa Mobile Interface**
+| :label: Technologies | react native, typescript, nativebase, phosphor, react navigation, dotenv, country list, axios, dayjs, expo, react native svg, react native safe area context, react native screens, react native country flag, npm
+| :camera: Img         | <img src="https://user-images.githubusercontent.com/86276393/202927462-39cd148f-1878-444c-bc04-d9d38a2a59ed.png#vitrinedev" alt="vitrine.dev thumb" width="100%"/>
+
+</details>
+</td>
+</tr>
 </table>
 
 <p align="right">
